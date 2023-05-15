@@ -9,3 +9,7 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 **Tailwind CSS**: The portfolio's styling is implemented using Tailwind CSS, a utility-first CSS framework. It allows for rapid UI development with pre-defined classes and customizable design options.
 
 > .svelte-kit and node_modules folders are note uploaded here, standard from the sveltekit installation script.
+
+
+## Tutorial e altro materiale usato:
+- Joy of Code youtube channel: https://www.youtube.com/watch?v=obmiLi3bhkQ&t=486s
