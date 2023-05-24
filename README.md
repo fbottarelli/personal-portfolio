@@ -1,7 +1,7 @@
 # Personal Portfolio
 Welcome to my personal portfolio repository! This project showcases my skills, projects, and experiences. It is built using Svelte, SvelteKit, and Tailwind CSS.
 
-## Features
+## Tools
 **Svelte**: The project is developed using the Svelte framework, which offers a delightful development experience with its reactive and component-based approach.
 
 **SvelteKit**: SvelteKit is used as the framework for building the portfolio. It provides a powerful routing system, server-side rendering, and various other features to create fast and dynamic web applications.
@@ -10,6 +10,10 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 
 > .svelte-kit and node_modules folders are note uploaded here, standard from the sveltekit installation script.
 
+## To-Do
+- [ ] Make a basic fucntional portfolio with at least main + about
+- [ ] Think and try to implement a way cool way to show a list of tools/skills
+- [ ] add blogging features, maybe with markdown+svelte tools
 
 ## Tutorial e altro materiale usato:
 - Joy of Code youtube channel: https://www.youtube.com/watch?v=obmiLi3bhkQ&t=486s
