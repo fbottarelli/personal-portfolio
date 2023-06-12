@@ -1,0 +1,70 @@
+<script>
+function toggle() {
+	window.document.body.classList.toggle('dark-mode')
+}
+</script>
+<!-- <button on:click={toggle}>
+	<slot/>
+</button>
+<style>
+	button {
+		background-color: #f76027;
+		color: white;
+		border: none;
+		border-radius: 4px;
+		padding: 0.5rem;
+		text-transform: uppercase;
+		
+	}
+	:global(body.dark-mode) button {
+		background-color: #0084f6;
+		color: white;
+	}
+</style> -->
+
+<button on:click={toggle} class="flex h-9 w-9 items-center justify-center rounded-lg transition-all">
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        class="h-5 w-5 text-gray-800 dark:text-yellow-100"
+    >
+        <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728
+            0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+        />
+    </svg>
+</button>
+<style>
+	button {
+		background-color: #f76027;
+		color: white;
+		border: none;
+		border-radius: 4px;
+		padding: 0.5rem;
+		text-transform: uppercase;
+	}
+	:global(body.dark-mode) button {
+		background-color: #0084f6;
+		color: white;
+	}
+
+    /* New styles */
+    button.flex {
+        background-color: #f76027;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 0.5rem;
+        text-transform: uppercase;
+        transition: all 0.3s;
+    }
+    :global(body.dark-mode) button.flex {
+        background-color: #0084f6;
+        color: white;
+    }
+</style>
