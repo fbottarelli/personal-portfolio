@@ -11,9 +11,11 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 > .svelte-kit and node_modules folders are note uploaded here, standard from the sveltekit installation script.
 
 ## To-Do
-- [ ] Make a basic fucntional portfolio with at least main + about
+- [x] Make a basic fucntional portfolio with at least main + about
 - [ ] Think and try to implement a way cool way to show a list of tools/skills
 - [ ] add blogging features, maybe with markdown+svelte tools
+- [ ] I can make work the Dark theme without using Tailwind, try to resolve this
+- [ ] How add dependecies with vite adn Typescript?
 
 ## Tutorial e altro materiale usato:
 - Joy of Code youtube channel: https://www.youtube.com/watch?v=obmiLi3bhkQ&t=486s
