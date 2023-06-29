@@ -1,7 +1,7 @@
 <script>
   import "../app.css";
-	import Nav from "../components/Nav.svelte";
-  import Button from '../components/Button.svelte'
+	import Nav from "../lib/components/Nav.svelte";
+  import Button from '../lib/components/Button.svelte'
 </script>
 
 
