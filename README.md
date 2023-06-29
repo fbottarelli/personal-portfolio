@@ -20,3 +20,4 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 ## Tutorial e altro materiale usato:
 - Joy of Code youtube channel: https://www.youtube.com/watch?v=obmiLi3bhkQ&t=486s
 - https://github.com/swyxio/swyxkit
+- https://github.com/matfantinel/matfantinel.github.io/tree/main
