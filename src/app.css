@@ -19,9 +19,10 @@ body {
 		- https://css-tricks.com/strut-your-stuff-with-a-custom-scrollbar/
 		*/
 	/* --scrollbar-primary-color: #3730a3; */
-	--scrollbar-primary-color: #facc15;
+	/* --scrollbar-primary-color: #facc15;
 	--text-color: #ef4444;
-	overflow: scroll; /* https://maxschmitt.me/posts/react-prevent-layout-shift-body-scrollable/ */
+	overflow: scroll; */
+	 /* https://maxschmitt.me/posts/react-prevent-layout-shift-body-scrollable/ */
 }
 /* .dark body {
     --scrollbar-primary-color: #8db2e5;
