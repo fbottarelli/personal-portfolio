@@ -24,18 +24,23 @@
 </aside> -->
 
 
-
 <style>
-	:global(body) {
-		background-color: #f2eee2;
-		color: #000000;
-		transition: background-color 0.3s
-	}
-	:global(body.dark-mode) {
-		background-color: #1d3040;
-		color: #bfc2c7;
-	}
+    :global(body) {
+        --brand-accent: #facc15;
+        overflow-wrap: break-word;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+        background-color: #ffffff;
+        color: #000000;
+        transition: background-color 0.3s;
+    }
+
+    :global(body.dark-mode) {
+        background-color: #1d3040;
+        color: #bfc2c7;
+    }
 </style>
+
 
 
 <slot />
