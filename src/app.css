@@ -94,9 +94,9 @@ pre {
 	}
 }
 /* bg-yellow-200 dark:hover:bg-yellow-800 */
-a {
+/* a {
 	@apply text-yellow-700 hover:text-yellow-700 hover:underline dark:text-yellow-400 dark:hover:text-yellow-200;
-}
+} */
 
 /* for the super long github links i drop */
 article.prose a {
