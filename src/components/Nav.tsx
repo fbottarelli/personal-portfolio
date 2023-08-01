@@ -9,7 +9,7 @@ const Nav = () => {
             <div className="flex flex-row md:flex-col">
               <a href="./" className="mr-12 md:mb-4">Home</a>
               <a href="./about" className="mr-4">About me</a>
-              <a href="./works">Works</a>
+              <a href="./posts">Works</a>
             </div>
             
             <SwitchTheme/>

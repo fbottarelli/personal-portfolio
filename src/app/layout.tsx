@@ -20,7 +20,8 @@ export default function RootLayout({
       {/* <body className={inter.className}>{children}</body>  */}
       <body className={`${inter.className} antialiased max-w-sm md:max-w-xl flex flex-col md:flex-row mx-auto mt-8 lg:mt-20 p-5 md:p-0`}>
       <Nav /> {/* Render the Navbar */}
-      {children}
+      <main className="flex min-h-screen flex-col items-center">
+      {children}</main>
       </body>
     </html>
   )
