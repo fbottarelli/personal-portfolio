@@ -12,6 +12,9 @@
 /.next/
 /out/
 
+# sveltekit
+/.svelte-kit/
+
 # production
 /build
 
@@ -34,3 +37,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .aider*
+
+# IDE
+/.idea/
