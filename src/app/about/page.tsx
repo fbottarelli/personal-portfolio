@@ -2,7 +2,10 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className="flex-col"> 
+    <div className="flex-col">
+        <div className="font-serif font-semibold text-2xl my-6">
+            <p>About me</p>
+        </div>
         <div className="mb-12">
             <p>Welcome! 🧐 I'm Federico, I love everything related to <b>data</b> and their use in real problem. <br />
             I'm doing a Data Science master's degree  in Padua University while working as Junior DataOps Engineer for an Italian company.</p> <br />

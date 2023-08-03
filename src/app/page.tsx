@@ -1,8 +1,12 @@
 import Image from 'next/image'
+import React from "react";
 
 export default function Home() {
   return (
     <main>
+        <div className="font-serif font-semibold text-3xl my-6">
+            <p>Federico Bottarelli</p>
+        </div>
         <div className="mb-12">
           <p>
             Welcome! 🧐 I'm Federico, I love everything related to <b>data</b> and
