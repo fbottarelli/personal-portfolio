@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import SwitchTheme from '../components/SwitchTheme'
+import Link from 'next/link'
 
 const Nav = () => {
   return (
@@ -7,11 +8,11 @@ const Nav = () => {
       <div className="sticky lg:top-20">
         <nav className="flex flex-row md:flex-col relative">
             <div className="flex flex-row md:flex-col">
-              <a href="./" className="mr-12 md:mb-4">Home</a>
-              <a href="./about" className="mr-4">About me</a>
-              <a href="./posts">Works</a>
+              <Link href="./" className="mr-12 md:mb-4">Home</Link>
+              <Link href="/about" className="mr-4">About me</Link>
+              <Link href="/posts">Works</Link>
             </div>
-            
+            {/* Dark/light button */}
             <SwitchTheme/>
         </nav>
       </div>
