@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.my-body {
+  @apply antialiased max-w-sm md:max-w-xl flex flex-col md:flex-row mx-auto mt-8 md:mt-16 p-5 md:p-0;
+}
+
+.central-column {
+  @apply flex flex-col items-center
+}
+
+.sec-title {
+  @apply font-serif font-semibold text-2xl mb-6 mt-6 md:mt-0
+}
