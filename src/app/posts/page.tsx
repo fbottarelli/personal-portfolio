@@ -3,7 +3,7 @@ import React from 'react'
 const page = () => {
   return (
     <div className="flex-col"> 
-        <div className="font-serif font-semibold text-2xl my-6">
+        <div className="sec-title">
             <p> My Works</p>
         </div>
         <div>

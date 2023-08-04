@@ -14,7 +14,7 @@ export default function ThemeSwitch() {
   return (
     <button
       onClick={toggle}
-      className={`flex h-5 w-5 sm:h-7 sm:w-7 items-center justify-center rounded-lg transition-all bg-orange-500 text-white uppercase px-2 py-1 ${
+      className={`flex h-7 w-7 items-center justify-center rounded-lg transition-all bg-orange-500 text-white uppercase px-2 py-1 ${
         darkMode ? 'dark:bg-blue-600' : ''
       } mx-10 md:my-10 md:mx-0`}
     >

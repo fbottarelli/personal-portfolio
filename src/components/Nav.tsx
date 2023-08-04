@@ -5,7 +5,7 @@ import Link from 'next/link'
 const Nav = () => {
   return (
     <>
-      <div className="sticky lg:top-20">
+      {/*<div className="sticky">*/}
         <nav className="flex flex-row md:flex-col relative">
             <div className="flex flex-row md:flex-col">
               <Link href="./" className="mr-12 md:mb-4">Home</Link>
@@ -15,7 +15,7 @@ const Nav = () => {
             {/* Dark/light button */}
             <SwitchTheme/>
         </nav>
-      </div>
+      {/*</div>*/}
 
 
 
