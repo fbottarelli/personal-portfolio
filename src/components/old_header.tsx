@@ -1,15 +1,15 @@
 import { useState } from 'react';
-import SwitchTheme from '../components/SwitchTheme'
+import SwitchTheme from './SwitchTheme'
 import Link from 'next/link'
 
-const Nav = () => {
+const Old_header = () => {
   return (
     <>
       {/*<div className="sticky">*/}
         <nav className="flex flex-row md:flex-col relative">
             <div className="flex flex-row md:flex-col">
-              <Link href="./" className="mr-12 md:mb-4">Home</Link>
-              <Link href="/about" className="mr-4">About me</Link>
+              <Link href="/" className="mr-12 md:mb-4">Home</Link>
+              <Link href="/src/components/about" className="mr-4">About me</Link>
               <Link href="/posts">Works</Link>
             </div>
             {/* Dark/light button */}
@@ -59,4 +59,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default Old_header;

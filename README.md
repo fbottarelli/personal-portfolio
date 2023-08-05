@@ -1,4 +1,4 @@
 My nect js portfolio websites
 
-- Single page vs Multi page?
+- Single about vs Multi about?
 - skill? nope but a list yes

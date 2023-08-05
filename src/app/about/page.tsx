@@ -1,9 +1,9 @@
 import React from 'react'
 
-const page = () => {
+const about = () => {
   return (
     <div className="flex-col">
-        <div className="font-serif font-semibold text-2xl my-6">
+        <div className="sec-title">
             <p>About me</p>
         </div>
         <div className="mb-12">
@@ -28,4 +28,4 @@ const page = () => {
   )
 }
 
-export default page
+export default about
