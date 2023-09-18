@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: 'Federico Bottarelli',
   description: "Federico Bottarelli is a ...",
 }
-
+// test
 export default function RootLayout({
   children,
 }: {
