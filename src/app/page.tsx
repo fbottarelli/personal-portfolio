@@ -7,18 +7,21 @@ import Intro from "@/components/intro";
 import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
+import Form from "@/components/form";
 
 
 export default function Home() {
   return (
     <main>
-        <div className="primary-title">
+        <div className="primary-title text-center">
             <h1>Federico Bottarelli</h1>
         </div>
 
         <Intro />
         <Skills />
         <Experience />
+        <Form />
+
 
 
     </main>
