@@ -4,6 +4,10 @@ import { Inter } from 'next/font/google'
 import Footer from "@/components/footer"
 import Header from "@/components/header"
 
+import ActiveSectionContextProvider from "@/context/active-section-context";
+
+import ThemeContextProvider from "@/context/theme-context";
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -27,15 +31,17 @@ export default function RootLayout({
       {/*sm:w-[68.75rem] */}
       <div className="bg-[#7067CF] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[20rem] dark:bg-[#676394]"></div>
       {/*sm:w-[68.75rem]  md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] */}
-
-        <div className="my-body">
-          <Header /> {/* Render the Navbar */}
-          <main className="central-column">
-          {children}
-          </main>
-        </div>
-
-        <Footer />
+      <ThemeContextProvider>
+          <ActiveSectionContextProvider>
+              <div className="my-body">
+                  <Header /> {/* Render the Navbar */}
+                  <main className="central-column">
+                      {children}
+                  </main>
+            </div>
+            <Footer />
+          </ActiveSectionContextProvider>
+      </ThemeContextProvider>
 
       </body>
     </html>

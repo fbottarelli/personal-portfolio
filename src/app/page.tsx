@@ -15,7 +15,10 @@ export default function Home() {
         <div className="sec-title">
             <p>Federico Bottarelli</p>
         </div>
+
         <Intro />
+        <Skills />
+        <Experience />
 
 
     </main>
