@@ -82,7 +82,7 @@ export const experiencesData = [
         tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
         imageUrl: wordanalyticsImg,
     },
-] as const*/;
+] as const;*/
 
 export const skillsData = [
     "Git",
