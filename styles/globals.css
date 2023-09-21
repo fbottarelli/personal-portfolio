@@ -37,3 +37,8 @@ body {
 .sec-title {
   @apply font-serif font-semibold text-2xl mb-6 mt-6 md:mt-0
 }
+
+.primary-title {
+  @apply font-serif font-bold text-4xl mb-8 mt-8 md:mt-0;
+}
+

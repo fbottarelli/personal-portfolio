@@ -14,10 +14,10 @@ const Nav = () => {
             {/*</motion.div>*/}
 
             {/*<div className="sticky">*/}
-            <motion.div className="fixed top-0 right-1/2 h-[3rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] md:top-12 md:h-[10rem] md:w-[30rem] md:rounded-lg dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75"
+{/*            <motion.div className="fixed top-0 right-1/2 h-[3rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] md:top-12 md:h-[10rem] md:w-[30rem] md:rounded-lg dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75"
                         initial={{ y: -100, x: "+50%", opacity: 0 }}
                         animate={{ y: 0, x: "+50%", opacity: 1 }}>
-            </motion.div>
+            </motion.div>*/}
             <nav className="fixed top-0 flex flex-row md:flex-col relative">
                 <div className="flex flex-row md:flex-col">
                     <Link href="/" className="mr-12 md:mb-4">Home</Link>

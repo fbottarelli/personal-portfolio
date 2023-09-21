@@ -12,8 +12,8 @@ import Skills from "@/components/skills";
 export default function Home() {
   return (
     <main>
-        <div className="sec-title">
-            <p>Federico Bottarelli</p>
+        <div className="primary-title">
+            <h1>Federico Bottarelli</h1>
         </div>
 
         <Intro />

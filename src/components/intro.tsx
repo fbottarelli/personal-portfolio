@@ -11,19 +11,7 @@ export default function Intro() {
                 working as Junior DataOps Engineer for an Italian company.
             </p>
         </div>
-    // <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-    <div className="font-serif font-semibold text-2xl">
-        <p>My best works</p>
-    </div>
-    <div>
-        <p>
-            Sunt do velit ullamco deserunt nulla incididunt consectetur est. Elit
-            aute aliquip proident deserunt minim excepteur culpa qui velit nulla
-            commodo adipisicing excepteur cillum. Ea duis ullamco commodo
-            incididunt anim ex proident ipsum reprehenderit consectetur veniam. Eu
-            velit reprehenderit anim voluptate.
-        </p>
-    </div>
+     <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
         </>
     );
 }
