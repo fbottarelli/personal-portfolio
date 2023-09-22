@@ -39,6 +39,6 @@ body {
 }
 
 .primary-title {
-  @apply font-serif font-bold text-4xl mb-8 mt-8 md:mt-0;
+  @apply font-bold text-4xl mb-8 mt-8 md:mt-0 text-center;
 }
 

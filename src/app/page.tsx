@@ -13,7 +13,7 @@ import Form from "@/components/form";
 export default function Home() {
   return (
     <main>
-        <div className="primary-title text-center">
+        <div className="primary-title">
             <h1>Federico Bottarelli</h1>
         </div>
 
