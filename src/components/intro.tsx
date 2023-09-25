@@ -28,10 +28,10 @@ export default function About() {
                 Currently, I&apos;m pursuing a <span className="font-bold"> Data Science master&apos;s degree</span> at
                 <span className="font-medium"> Padua University</span>. Alongside my studies, I&apos;m working as a
                 <span className="font-bold"> Junior DataOps Engineer</span> for an Italian company.
-            </p>
+                <p className='mt-2'>
+                    From classical <strong>statistical analysis</strong> to more technology-based approaches like using <strong>AI</strong>, always with a statistical and mathematical approach in mind. I&apos;m fast and experienced with computers and modern technologies. I have a good base of <strong>coding</strong> skills, particularly in Python and R, but I&apos;m always open to learning new tools and technology.  🍋
+                </p>
 
-            <p className="font-serif text-xl">
-                From classical statistical analysis to more technology-based approaches like using AI, always with a statistical and mathematical approach in mind. I&apos;m fast and experienced with computers and modern technologies. I have a good base of coding skills, particularly in Python and R, but I&apos;m always open to learning new tools and technology. 😁
             </p>
         </motion.section>
     );
