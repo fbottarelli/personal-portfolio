@@ -18,14 +18,14 @@ const Nav = () => {
                         initial={{ y: -100, x: "+50%", opacity: 0 }}
                         animate={{ y: 0, x: "+50%", opacity: 1 }}>
             </motion.div>*/}
-            <nav className="fixed top-0 flex flex-row md:flex-col relative">
-                <div className="flex flex-row md:flex-col">
+            <nav className="fixed top-8 left-20 flex flex-row md:flex-col">
+                {/*<div className="flex flex-row md:flex-col">*/}
                     <Link href="/" className="mr-12 md:mb-4">Home</Link>
                     {/*<Link href="/about" className="mr-4 md:mr-0">About me</Link>*/}
                     <Link href="/posts">Works</Link>
                     {/* Dark/light button */}
                     <SwitchTheme/>
-                </div>
+                {/*</div>*/}
 
             </nav>
         </>
