@@ -21,7 +21,7 @@ export default function Experience() {
             <SectionHeading>My experience</SectionHeading>
 
             {/* Creating the vertical timeline. */}
-            <VerticalTimeline lineColor="">
+            <VerticalTimeline lineColor="#ededed">
                 {experiencesData.map((item, index) => (
                     <React.Fragment key={index}>
                         {/* Individual timeline element for each experience. */}
