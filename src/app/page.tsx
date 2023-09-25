@@ -14,8 +14,15 @@ export default function Home() {
   return (
     <main className="central-column">
         <div className="primary-title">
-            <h1>Federico Bottarelli</h1>
+            <h1 className="bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">
+                Federico Bottarelli
+            </h1>
         </div>
+
+
+
+
+
 
         <Intro />
         <Skills />
