@@ -20,18 +20,18 @@ export default function About() {
             {/*<SectionHeading>Welcome!</SectionHeading>*/}
             <p className="mb-3 text-2xl">
                 <span className='text-3xl font-serif'>Welcome!  </span>
-                I'm<span className="font-bold"> Federico</span>, and I have a deep passion for everything related to
+                I&apos;m<span className="font-bold"> Federico</span>, and I have a deep passion for everything related to
                 <span className="font-bold"> data</span> and their application in real-world problems.
             </p>
 
             <p className="mb-6 text-xl">
-                Currently, I'm pursuing a <span className="font-bold"> Data Science master's degree</span> at
-                <span className="font-medium"> Padua University</span>. Alongside my studies, I'm working as a
+                Currently, I&apos;m pursuing a <span className="font-bold"> Data Science master&apos;s degree</span> at
+                <span className="font-medium"> Padua University</span>. Alongside my studies, I&apos;m working as a
                 <span className="font-bold"> Junior DataOps Engineer</span> for an Italian company.
             </p>
 
             <p className="font-serif text-xl">
-                From classical statistical analysis to more technology-based approaches like using AI, always with a statistical and mathematical approach in mind. I'm fast and experienced with computers and modern technologies. I have a good base of coding skills, particularly in Python and R, but I'm always open to learning new tools and technology. 😁
+                From classical statistical analysis to more technology-based approaches like using AI, always with a statistical and mathematical approach in mind. I&apos;m fast and experienced with computers and modern technologies. I have a good base of coding skills, particularly in Python and R, but I&apos;m always open to learning new tools and technology. 😁
             </p>
         </motion.section>
     );
