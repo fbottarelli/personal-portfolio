@@ -35,9 +35,7 @@ export default function RootLayout({
           <ActiveSectionContextProvider>
               <div className="my-body">
                   <Header /> {/* Render the Navbar */}
-                  <main className="central-column">
                       {children}
-                  </main>
             </div>
             <Footer />
           </ActiveSectionContextProvider>

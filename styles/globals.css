@@ -27,7 +27,7 @@ body {
 }
 
 .my-body {
-  @apply antialiased max-w-md md:max-w-3xl flex flex-col flex-grow md:flex-row mx-auto mt-8 md:mt-16 p-5 md:p-0;
+  @apply antialiased max-w-md md:max-w-6xl flex flex-col flex-grow md:flex-row mx-auto mt-8 md:mt-16 p-5 md:p-0;
 }
 
 .central-column {
