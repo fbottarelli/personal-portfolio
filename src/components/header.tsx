@@ -1,9 +1,9 @@
 "use client";
-import { useState } from 'react';
+// import { useState } from 'react';
 import SwitchTheme from './SwitchTheme'
 import Link from 'next/link'
-import { motion } from "framer-motion";
-import { links } from "@/lib/data";
+// import { motion } from "framer-motion";
+// import { links } from "@/lib/data";
 
 const Nav = () => {
     return (
@@ -18,11 +18,11 @@ const Nav = () => {
                         initial={{ y: -100, x: "+50%", opacity: 0 }}
                         animate={{ y: 0, x: "+50%", opacity: 1 }}>
             </motion.div>*/}
-            <nav className="fixed top-8 left-20 flex flex-row md:flex-col">
+            <nav className="lg:fixed lg:top-8 lg:left-20 flex flex-row lg:flex-col justify-center mb-10 lg:mb-0 2xl:px-52">
                 {/*<div className="flex flex-row md:flex-col">*/}
-                    <Link href="/" className="mr-12 md:mb-4">Home</Link>
+                    <Link href="/" className="mr-12 lg:mb-4 font-extrabold text-2xl">Home</Link>
                     {/*<Link href="/about" className="mr-4 md:mr-0">About me</Link>*/}
-                    <Link href="/posts">Works</Link>
+                    <Link href="/posts" className='text-xl'>Works</Link>
                     {/* Dark/light button */}
                     <SwitchTheme/>
                 {/*</div>*/}

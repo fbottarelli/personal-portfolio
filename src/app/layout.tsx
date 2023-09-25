@@ -22,10 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
-      {/* <body className={inter.className}>{children}</body>  */}
-      <body className={`${inter.className} flex flex-col min-h-screen bg-gray-50 text-gray-950 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}>
-
-
+      <body className={`${inter.className}`}>
       {/*Background*/}
       <div className="bg-[#46ACC2] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[20rem] dark:bg-[#946263] "></div>
       {/*sm:w-[68.75rem] */}
@@ -40,7 +37,6 @@ export default function RootLayout({
             <Footer />
           </ActiveSectionContextProvider>
       </ThemeContextProvider>
-
       </body>
     </html>
   );

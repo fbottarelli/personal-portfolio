@@ -60,6 +60,34 @@ export const experiencesData = [
     },
 ] as const;
 
+export const skillsData = [
+    "Git",
+    "R",
+    "MySQL",
+    "SQL",
+    "Kafka",
+    "Nifi",
+    "Ansible",
+    "Terraform",
+    "AWS",
+    "Cloudformation",
+    "LangChain",
+    "Machine Learning",
+    "Statistics",
+    "Deep Learning",
+    "MongoDB",
+    "PostgreSQL",
+    "Python",
+    "Denodo",
+    "Cloudera",
+    "Hadoop",
+    // "JavaScript",
+    // "TypeScript",
+    // "React",
+    // "Next.js",
+    // "Node.js",
+] as const;
+
 /*export const projectsData = [
     {
         title: "CorpComment",
@@ -83,28 +111,3 @@ export const experiencesData = [
         imageUrl: wordanalyticsImg,
     },
 ] as const;*/
-
-export const skillsData = [
-    "Git",
-    "R",
-    "MySQL",
-    "SQL",
-    "Kafka",
-    "Nifi",
-    "Ansible",
-    "Terraform",
-    "AWS",
-    "Cloudformation",
-    "LangChain",
-    "Machine Learning",
-    "Statistics",
-    "Deep Learning",
-    "MongoDB",
-    "PostgreSQL",
-    "Python",
-    // "JavaScript",
-    // "TypeScript",
-    // "React",
-    // "Next.js",
-    // "Node.js",
-] as const;
