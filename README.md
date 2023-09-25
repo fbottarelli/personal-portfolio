@@ -1,3 +1,5 @@
-# personal-portfolio
-Repo for my personal website, made for personal training with Next-JS and Svelte-kit (see branches)
+My nect js portfolio websites
+
+- Single about vs Multi about?
+- skill? nope but a list yes
 

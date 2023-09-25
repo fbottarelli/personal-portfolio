@@ -16,7 +16,7 @@ export default function ThemeSwitch() {
       onClick={toggle}
       className={`flex h-7 w-7 items-center justify-center rounded-lg transition-all bg-orange-500 text-white uppercase px-2 py-1 ${
         darkMode ? 'dark:bg-blue-600' : ''
-      } mx-10 md:my-10 md:mx-0`}
+      } mx-10 lg:my-10 lg:mx-0`}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

@@ -1,14 +1,14 @@
 import React from 'react'
 
-const page = () => {
+const about = () => {
   return (
     <div className="flex-col">
-        <div className="font-serif font-semibold text-2xl my-6">
+        <div className="sec-title">
             <p>About me</p>
         </div>
         <div className="mb-12">
             <p>Welcome! 🧐 I'm Federico, I love everything related to <b>data</b> and their use in real problem. <br />
-            I'm doing a Data Science master's degree  in Padua University while working as Junior DataOps Engineer for an Italian company.</p> <br />
+            I'm doing a Data Science master's degree  in Padua University while working as Junior DataOps Engineer for an Italian IT company Miriade.</p> <br />
 
             <p> Hi! I'm Federico, I love everything related to data and their use in real problem. From classical statistical analysis to more technology-based approaches like using AI, always with a statistical and mathematical approach in mind. I'm fast and experienced with computers and modern technologies. I have a good base of coding skills, particularly in Python and R, but I'm always open to learning new tools. 😁</p> <br />
                 <br />
@@ -28,4 +28,4 @@ const page = () => {
   )
 }
 
-export default page
+export default about
