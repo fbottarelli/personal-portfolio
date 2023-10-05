@@ -18,7 +18,7 @@ const Nav = () => {
                         initial={{ y: -100, x: "+50%", opacity: 0 }}
                         animate={{ y: 0, x: "+50%", opacity: 1 }}>
             </motion.div>*/}
-            <nav className="lg:fixed lg:top-8 lg:left-20 fixed top-8 flex flex-row lg:flex-col justify-center mb-10 lg:mb-0 2xl:px-52">
+            <nav className="lg:fixed lg:top-8 lg:left-20 fixed top-8 flex flex-row lg:flex-col mb-10 lg:mb-0">
                 {/*<div className="flex flex-row md:flex-col">*/}
                     <Link href="/" className="mr-12 lg:mb-4 font-extrabold text-xl">Home</Link>
                     {/*<Link href="/about" className="mr-4 md:mr-0">About me</Link>*/}
