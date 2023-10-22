@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Footer from "@/components/footer"
 import Header from "@/components/header"
+import UnderHeader from "@/components/underHeader"
 
 import ActiveSectionContextProvider from "@/context/active-section-context";
 
