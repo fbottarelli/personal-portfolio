@@ -2,12 +2,13 @@
 
 // import Image from "next/image";
 import React from "react";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 // import Link from "next/link";
 import {  BsLinkedin } from "react-icons/bs";
 // import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
+import { motion } from "framer-motion";
 // import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
@@ -18,18 +19,18 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem] font-sans"
+      className="mb-28 max-w-[50rem] sm:mb-0 scroll-mt-[100rem] font-sans text-left"
     >
 
       <motion.div
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
-            delay: 0.1,
+            delay: 0.3,
           }}
       >
       <p className="mb-3 text-2xl">
-        <span className='text-2xl font-semibold'>Welcome!  </span>
+        <span className='font-semibold'>Welcome!  </span>
         I&apos;m<span className="font-semibold"> Federico</span>, and I have a deep passion for everything related to
         <span className="font-semibold"> data</span> and their application in real-world problems.
       </p>
@@ -39,12 +40,12 @@ export default function Intro() {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
-            delay: 0.1,
+            delay: 0.4,
           }}
       >
       <p className="mb-6 text-xl">
         Currently, I&apos;m pursuing a <span className="font-bold"> Data Science master&apos;s degree</span> at
-        <span className="font-medium"> Padua University</span>. Alongside my studies, I&apos;m working as a
+         Padua University. Alongside my studies, I&apos;m working as a
         <span className="font-bold"> Junior DataOps Engineer</span> for an Italian company.
       </p>
       </motion.div>
@@ -53,7 +54,7 @@ export default function Intro() {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
-            delay: 0.1,
+            delay: 0.5,
           }}
       >
         <p className='text-xl my-6'>
