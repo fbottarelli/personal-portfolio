@@ -21,6 +21,20 @@ export default function Intro() {
       id="home"
       className="mb-28 max-w-[50rem] sm:mb-0 scroll-mt-[100rem] font-sans text-left"
     >
+      <motion.div
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.1,
+        }}
+      >
+        <div className="primary-title">
+            <h1 className="bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 bg-clip-text text-transparent mt-8">
+                Federico <br/> 
+                Bottarelli
+            </h1>
+        </div>
+      </motion.div>
 
       <motion.div
           initial={{ opacity: 0, y: 100 }}

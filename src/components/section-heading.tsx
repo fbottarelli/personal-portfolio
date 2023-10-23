@@ -15,7 +15,7 @@ export default function SectionHeading({ children }: SectionHeadingProps) {
             delay: 0.1,
           }}
       >
-    <h2 className="text-3xl font-medium font-sans mb-8 text-center">
+    <h2 className="sec-title">
       {children}
     </h2>
       </motion.div>
