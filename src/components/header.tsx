@@ -23,7 +23,7 @@ const Nav = () => {
                 > 
                     <nav className="fixed top-5 left-1/2 transform -translate-x-1/2 mb-10 flex flex-row justify-center lg:fixed lg:top-8 lg:left-28 lg:flex-col lg:mb-0">
                     {/*<div className="flex flex-row md:flex-col">*/}
-                        <Link href="/" className="mr-12 lg:mb-4 font-extrabold text-xl">Home</Link>
+                        <Link href="/" className="mr-8 lg:mb-4 font-extrabold text-xl">Home</Link>
                         {/*<Link href="/about" className="mr-4 md:mr-0">About me</Link>*/}
                         <Link href="/posts" className='text-xl'>Works</Link>
                         {/* Dark/light button */}
