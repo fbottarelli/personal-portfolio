@@ -14,6 +14,13 @@ const Nav = () => {
                                 initial={{ y: -100, x: "+50%", opacity: 0 }}
                                 animate={{ y: 0, x: "+50%", opacity: 1 }}>
                 </motion.div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{
+                    delay: 0.2,
+                    }}
+                > 
                     <nav className="fixed top-8 left-1/2 transform -translate-x-1/2 mb-10 flex flex-row justify-center lg:fixed lg:top-8 lg:left-28 lg:flex-col lg:mb-0">
                     {/*<div className="flex flex-row md:flex-col">*/}
                         <Link href="/" className="mr-12 lg:mb-4 font-extrabold text-xl">Home</Link>
@@ -23,7 +30,7 @@ const Nav = () => {
                         <SwitchTheme/>
                     {/*</div>*/}
                     </nav>
-                {/* </motion.div>    */}
+                </motion.div>   
 
             </div>
         </>
