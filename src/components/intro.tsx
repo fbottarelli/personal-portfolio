@@ -88,7 +88,7 @@ export default function Intro() {
           }}
       >
         <p className='text-2xl my-6'>
-          From classical <strong>statistical analysis</strong> to more technology-based approaches like using <strong>AI</strong>, always with a statistical and mathematical approach in mind. I&apos;m fast and experienced with computers and modern technologies. I have a good base of <strong>coding</strong> skills, particularly in Python and R, but I&apos;m always open to learning new tools and technology.
+          From classical <strong>statistical analysis</strong> to more technology-based approaches like using <strong>AI</strong>, always with a statistical and mathematical approach at the core. I&apos;m fast and experienced with computers and modern technologies. I have a good base of <strong>coding</strong> skills, particularly in Python and R, but I continuously seek opportunities to familiarize myself with new tools and technologies.
         </p>
         </motion.div>
 
@@ -117,7 +117,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/FedericoBottarelli_CV.pdf"
+          href="FedericoBottarelli_CV.pdf"
           download
         >
           Download CV{" "}
